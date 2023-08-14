@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todo {
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 750px;
+  height: 530px;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 11px #dc7b0f70;
+  &__sidebar{
+    background: burlywood;
+    width: 200px;
+    height: 410px;
+    padding: 60px 20px;
+    border-right: 1px solid #f4f6f8;
+  }
+}
